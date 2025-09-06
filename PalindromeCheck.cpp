@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	int choice,n,rev=0,digits=0,temp,k;
-	char str[10],reverse[10];
+	char str[10];
 	
 	cout<<"Check palindrome."<<endl;
 	cout<<"Input 1 for number."<<endl;
@@ -93,3 +93,4 @@ int main(){
 		cout<<"Invalid Choice!";
 	}
 }
+
