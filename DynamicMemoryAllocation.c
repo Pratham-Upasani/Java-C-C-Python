@@ -1,3 +1,4 @@
+//All the 4 functions of dynamic memory allocation: malloc, calloc, realloc, free
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -55,3 +56,4 @@ int main(){
 	printf("\n\nMemory created by calloc deallocated!");
 	return 0;						
 }
+
