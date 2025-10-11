@@ -27,7 +27,9 @@ int main(){
 	for(i=0; i<n; i++){
 		printf("%d ",a[i]);
 	}
-	
+
+	//Right rotation r times
+
 	printf("\n\n\nEnter how many right rotations you want: ");
 	scanf("%d",&r);
 	
@@ -45,3 +47,4 @@ int main(){
 	}
 	return 0;
 }
+
