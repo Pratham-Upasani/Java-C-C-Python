@@ -1,0 +1,17 @@
+//Reverse of an array
+//a[5]={1,2,3,4,5}, reverse of a={5,4,3,2,1}, Also works for even size array
+
+#include<stdio.h>
+int main(){
+	int a[5]={1,2,3,4,5},i,temp,n=5;
+	
+	for(i=0; i<n/2; i++){
+		temp=a[i];
+		a[i]=a[n-i-1];
+		a[n-i-1]=temp;
+	}
+	
+	printf("Elements of array after reverse: ");
+	for(i=0; i<n; i++)
+	printf("%d ",a[i]);
+}
